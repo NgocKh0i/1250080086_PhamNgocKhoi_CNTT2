@@ -3,8 +3,7 @@ import java.util.Scanner;
 class HinhChuNhat {
     private double chieuDai;
     private double chieuRong;
-
-    // Phương thức thiết lập (set) cho chiều dài và chiều rộng
+    
     public void setChieuDai(double chieuDai) {
         if (chieuDai > 0) {
             this.chieuDai = chieuDai;
